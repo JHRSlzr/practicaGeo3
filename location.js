@@ -1,5 +1,3 @@
-var mapa =getElementById('ip')
-
 var mapa = document.getElementById("mapa")
 
     function getLocation() {
