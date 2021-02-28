@@ -9,7 +9,7 @@ var mapa = document.getElementById("mapa")
 
         }
         else {
-            demo.innerHTML = "EL DISPOSITIVO NO PUEDE LOCALIZARSE"
+            mapa.innerHTML = "EL DISPOSITIVO NO PUEDE LOCALIZARSE"
         }
     }
 
