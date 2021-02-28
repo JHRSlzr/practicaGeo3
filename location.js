@@ -13,7 +13,7 @@ var mapa = document.getElementById("mapa")
 
     function muestraPosicion(posicion) {
 
-        mapa.innerHTML = "Latitud: " + posicion.coords.latitude + "<br>" + ", Longitud: " + posicion.coords.longitude ; 
+        mapa.innerHTML = "Latitud: " + posicion.coords.latitude + "<br>" + "Longitud: " + posicion.coords.longitude ; 
             
 
     }
