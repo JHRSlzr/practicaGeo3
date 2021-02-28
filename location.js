@@ -7,13 +7,13 @@ var mapa = document.getElementById("mapa")
 
         }
         else {
-            mapa.innerHTML = "EL DISPOSITIVO NO PUEDE LOCALIZARSE"
+            mapa.innerHTML = "EL DISPOSITIVO NO PUEDE LOCALIZARSE :("
         }
     }
 
     function muestraPosicion(posicion) {
 
-        mapa.innerHTML = "Latitud: " + posicion.coords.latitude + "<br>" + "Longitud: " + posicion.coords.longitude ; 
+        mapa.innerHTML = "LATITUD: " + posicion.coords.latitude + "<br>" + "LONGITUD: " + posicion.coords.longitude ; 
             
 
     }
